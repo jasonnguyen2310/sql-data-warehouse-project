@@ -1,4 +1,4 @@
-// Load data from csv to postgres
+// Create stored procedure to load data from csv to postgres Bronze Layer
 
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
 LANGUAGE plpgsql
