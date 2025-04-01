@@ -26,7 +26,7 @@ BEGIN
         DROP TABLE bronze.crm_prd_info;
 	END IF;
 	CREATE TABLE bronze.crm_prd_info (
-	prd_prd_id INT,
+	prd_id INT,
 	prd_key	VARCHAR(50),
 	prd_nm VARCHAR(50),
 	prd_cost INT,
